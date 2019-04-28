@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/discovery/discovery",
+    "pages/saved/saved",
+    "pages/stories/stories",
+    "pages/inbox/inbox",
+    "pages/person/person"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Welcome Airbnb",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/discovery/discovery",
+        "iconPath": "images/discovery.png",
+        "selectedIconPath": "images/discovery.png",
+        "text": "EXPLORE"
+      },
+      {
+        "pagePath": "pages/saved/saved",
+        "iconPath": "images/save.png",
+        "selectedIconPath": "images/save.png",
+        "text": "SAVED"
+      },
+      {
+        "pagePath": "pages/stories/stories",
+        "iconPath": "images/story.png",
+        "selectedIconPath": "images/story.png",
+        "text": "STORIES"
+      },
+      {
+        "pagePath": "pages/inbox/inbox",
+        "iconPath": "images/inbox.png",
+        "selectedIconPath": "images/inbox.png",
+        "text": "INBOX"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "iconPath": "images/person.png",
+        "selectedIconPath": "images/person.png",
+        "text": "ME"
+      }
+    ]
+  }
+}

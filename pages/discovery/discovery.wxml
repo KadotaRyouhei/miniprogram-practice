@@ -1,0 +1,22 @@
+<view class="title-search">
+  <image class="img-search-icon" src="../../images/search.png"></image>
+  <input class="inp-search" placeholder='请输入你想要去的国家'></input>
+</view>
+
+<view class='v-divider' />
+
+<scroll-view class="guess-you" scroll-x="true" style="white-space: nowrap; display:flex">
+  <button wx:for="{{guessItems}}" class='btn-guess'>{{item.name}}</button>
+</scroll-view>
+
+<view class='v-help-find'>
+  <text class='txt-help-find-title'>What can we help you find, Liang?</text>
+  <scroll-view class='scv-help-find' scroll-x="true" style="white-space: nowrap; display:flex">
+    <view wx:for="{{helpfindDatas}}" class='v-help-find-item'>
+      <view class="v-help-find-root">
+        <image class='img-help-find-item' src='../../images/helpfinditem1.png'></image>
+        <text class='txt-help-find-item'>{{item.name}}</text>
+      </view>
+    </view>
+  </scroll-view>
+</view>

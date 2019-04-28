@@ -1,0 +1,6 @@
+<template name="helpfind">
+  <view class='v-help-find-item'>
+    <image class='img-help-find-item' src='../../images/helpfinditem1.png'></image>
+    <text class='txt-help-find-item'></text>
+  </view>
+</template>
