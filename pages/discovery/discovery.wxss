@@ -47,7 +47,8 @@
 }
 
 .v-help-find{
-  margin: 20rpx;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
 }
 
 .txt-help-find-title{
@@ -82,4 +83,161 @@
   font-size: 40rpx;
   font-weight: bolder;
   margin-left: 10rpx;
+}
+
+.v-things-to-do{
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  position: relative;
+}
+
+.txt-things-to-do{
+  font-size: 60rpx;
+  font-weight: bold;
+}
+
+.v-things-to-do-root{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.v-things-to-do-root-left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.v-things-to-do-root-right{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.v-things-to-do-content-left{
+  height: 500rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.v-things-to-do-content-right{
+  height: 500rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.v-img-container-left{
+  width: 340rpx;
+  height: 170rpx;
+  position: relative;
+}
+
+.v-img-container-right{
+  width: 340rpx;
+  height: 170rpx;
+  position: relative;
+}
+
+.img-save-left{
+  width: 32rpx;
+  height: 32rpx;
+  background-color: white;
+  position: absolute;
+  top: 10rpx;
+  right: 20rpx;
+}
+
+.img-save-right{
+  width: 32rpx;
+  height: 32rpx;
+  background-color: white;
+  position: absolute;
+  top: 10rpx;
+  right: 20rpx;
+}
+
+.img-things-to-do-item-left{
+  width: 340rpx;
+  height: 170rpx;
+}
+
+.img-things-to-do-item-right{
+  width: 340rpx;
+  height: 170rpx;
+}
+
+.txt-ttd-item-label-left{
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  font-weight: bold;
+}
+
+.txt-ttd-item-label-right{
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  font-weight: bold;
+}
+
+.txt-ttd-item-name-left{
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+.txt-ttd-item-name-right{
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+.txt-ttd-item-price-left{
+  margin-top: 10rpx;
+  height: 30rpx;
+  font-size: 28rpx;
+  color: #9c661f;
+}
+
+.txt-ttd-item-price-right{
+  margin-top: 10rpx;
+  height: 30rpx;
+  font-size: 28rpx;
+  color: #9c661f;
+}
+
+.v-evaluation-left{
+  height: 32rpx;
+}
+.v-evaluation-right{
+  height: 32rpx;
+}
+
+.txt-ttd-item-evaluation-left{
+  font-size: 24rpx;
+  color: #03a89e;
+}
+
+.txt-ttd-item-evaluation-right{
+  font-size: 24rpx;
+  color: #03a89e;
+}
+
+.txt-ttd-item-evaluation-count-left{
+  margin-left: 10rpx;
+  font-size: 24rpx;
+}
+
+.txt-ttd-item-evaluation-count-right{
+  margin-left: 10rpx;
+  font-size: 24rpx;
+}
+
+.txt-ttd-show-all{
+  display: flex;
+  width: 96%;
+  height: 100rpx;
+  justify-content: center;
+  align-items: center;
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #03a89e;
+  border: 1px solid #03a89e;
+  border-radius: 10rpx;
 }

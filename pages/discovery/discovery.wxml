@@ -20,3 +20,40 @@
     </view>
   </scroll-view>
 </view>
+
+<view class='v-things-to-do'>
+  <text class='txt-things-to-do'>Things to do while you are in Florence</text>
+  <view class='v-things-to-do-root'>
+    <view class='v-things-to-do-root-left'>
+      <view wx:for="{{thingsToDoDatas}}" wx:if="{{index%2==0}}" class='v-things-to-do-content-left'>
+        <view class='v-img-container-left'>
+          <image class='img-things-to-do-item-left' src='../../images/thingsToDo.png'></image>
+          <image class='img-save-left' src='../../images/heart.png'></image>
+        </view>
+        <text class='txt-ttd-item-label-left' style="color:{{item.labelColor}};">{{item.label}}</text>
+        <text class='txt-ttd-item-name-left'>{{item.name}}</text>
+        <text class='txt-ttd-item-price-left'>{{item.price}}</text>
+        <view class='v-evaluation-left'>
+          <text class='txt-ttd-item-evaluation-left'>{{item.evaluation}}</text>
+          <text class='txt-ttd-item-evaluation-count-left'>{{item.evaluationCount}}</text>
+        </view>
+      </view>
+    </view>
+    <view class='v-things-to-do-root-right'>
+      <view wx:for="{{thingsToDoDatas}}" wx:if="{{index%2==1}}" class='v-things-to-do-content-right'>
+        <view class='v-img-container-right'>
+          <image class='img-things-to-do-item-right' src='../../images/thingsToDo.png'></image>
+          <image class='img-save-right' src='../../images/heart.png'></image>
+        </view>
+        <text class='txt-ttd-item-label-right' style="color:{{item.labelColor}};">{{item.label}}</text>
+        <text class='txt-ttd-item-name-right'>{{item.name}}</text>
+        <text class='txt-ttd-item-price-right'>{{item.price}}</text>
+        <view class='v-evaluation-right'>
+          <text class='txt-ttd-item-evaluation-right'>{{item.evaluation}}</text>
+          <text class='txt-ttd-item-evaluation-count-right'>{{item.evaluationCount}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <text class='txt-ttd-show-all'>Show all ({{thinsToDoShowAll}})</text>
+</view>

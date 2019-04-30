@@ -27,7 +27,42 @@ Page({
       {
         name: "Restaurants"
       },
-    ]
+    ],
+    thingsToDoDatas:[
+      {
+        label: "COOKING CLASS . FLORENCE",
+        labelColor: "#b0171f",
+        name:"PASTAMANIA",
+        price: "¥457 per person",
+        evaluation: "4.78 ⭐️⭐️⭐️⭐️⭐️",
+        evaluationCount: "1912",
+      },
+      {
+        label: "HISTORY WALK . FLORENCE",
+        labelColor:"#e3cf57",
+        name: "Discover the hidden gems",
+        price: "¥232 per person",
+        evaluation: "4.92 ⭐️⭐️⭐️⭐️⭐️",
+        evaluationCount: "37",
+      },
+      {
+        label: "WINE TASTING . FLORENCE",
+        labelColor: "#ff0000",
+        name: "3 Wineries:Tuscan Wine Tour",
+        price: "¥990 per person",
+        evaluation: "4.95 ⭐️⭐️⭐️⭐️⭐️",
+        evaluationCount: "284",
+      },
+      {
+        label: "FOOD WALK . FLORENCE",
+        labelColor: "#8b864e",
+        name: "Florence Tood Tour",
+        price: "¥155 per person",
+        evaluation: "5.0 ⭐️⭐️⭐️⭐️⭐️",
+        evaluationCount: "23",
+      },
+    ],
+    thinsToDoShowAll:"319"
   },
 
   /**
