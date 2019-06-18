@@ -1,0 +1,52 @@
+.v-title {
+  margin-left: 20rpx;
+}
+
+.txt-title {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.v-save-content {
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+
+.v-save-root {
+  margin-top: 20rpx;
+  display: flex;
+  flex-flow: column;
+}
+
+.img-save-item {
+  width: 700rpx;
+  height: 400rpx;
+}
+
+.v-save-bottom {
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.txt-save-name {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+
+.txt-save-des {
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
+
+.v-save-divider {
+  width: 600rpx;
+  height: 2rpx;
+  margin-left: 50rpx;
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+  background-color: #dddddd;
+}
+
+

@@ -1,0 +1,19 @@
+<view class='v-title'>
+  <text class='txt-title'>{{pageTitle}}</text>
+</view>
+
+<view class='v-save-content'>
+  <scroll-view class='scv-save' scroll-y="true">
+    <view wx:for="{{saveDatas}}" class='v-save-item'>
+      <view class="v-save-root">
+        <image class='img-save-item' src='../../images/helpfinditem1.png'></image>
+        <view class='v-save-bottom'>
+          <text class='txt-save-name'>{{item.name}}</text>
+          <text class='txt-save-des'>{{item.des}}</text>
+        </view>
+        <view class='v-save-divider' wx:if='{{index != saveDatas.length -1}}'>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

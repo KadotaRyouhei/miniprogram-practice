@@ -4,6 +4,25 @@ Page({
    * 页面的初始数据
    */
   data: {
+    pageTitle:"Saved",
+    saveDatas:[
+      {
+        name:"Florence",
+        des:"2 homes"
+      },
+      {
+        name: "Florence",
+        des: "2 homes"
+      },
+      {
+        name: "Venezia",
+        des: "2 homes"
+      },
+      {
+        name: "Venezia",
+        des: "2 homes"
+      },
+    ]
     
   },
 
