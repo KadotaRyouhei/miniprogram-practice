@@ -57,3 +57,35 @@
   </view>
   <text class='txt-ttd-show-all'>Show all ({{thinsToDoShowAll}})</text>
 </view>
+
+<view class='adventure-region'>
+  <text class='txt-adventure-title'>Airbnb Adventures by region</text>
+  <text class='txt-adventure-description'>{{adventureDes}}</text>
+  <scroll-view class='scv-adventure' scroll-x="true" style="white-space: nowrap; display:flex">
+    <view wx:for="{{adventureDatas}}" class='v-adventure-item'>
+
+      <view class="v-adventure-root">
+        <view class='v-adventure-left-padding' wx:if='{{index == 0}}'>
+        </view>
+        <view class='v-adventure-content'>
+          <view class='v-adventure-top'>
+            <image class='img-adventure-item' src='../../images/helpfinditem1.png'></image>
+            <view class='v-adventure-top-txt-container'>
+              <text class='txt-adventure-item'>{{item.name}}</text>
+            </view>
+          </view>
+          <view class='v-adventure-bottom'>
+            <text class='txt-adventure-btm-title'>{{item.btmTitle}}</text>
+            <text class='txt-adventure-btm-des'>{{item.btmDes}}</text>
+          </view>
+        </view>
+
+        <view class='v-adventure-right-padding' wx:if='{{index == adventureDatas.length -1}}'>
+        </view>
+
+      </view>
+
+    </view>
+  </scroll-view>
+
+</view>

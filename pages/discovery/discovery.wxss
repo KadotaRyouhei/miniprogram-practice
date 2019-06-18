@@ -4,12 +4,12 @@
   margin-top: 8rpx;
   margin-left: 32rpx;
   margin-right: 32rpx;
-  border: 1px solid #dddddd;
-  border-radius: 5%;
-  box-shadow: 6rpx 6rpx 3rpx 6rpx #dddddd;
+  border: 1px solid #ddd;
+  border-radius: 10rpx;
+  box-shadow: 6rpx 6rpx 3rpx 6rpx #ddd;
 }
 
-.img-search-icon{
+.img-search-icon {
   width: 32rpx;
   height: 32rpx;
   margin-left: 20rpx;
@@ -20,17 +20,17 @@
   height: 60rpx;
   margin-top: 10rpx;
   margin-left: 10rpx;
-  background-color: #fdfdfd
+  background-color: #fdfdfd;
 }
 
-.v-divider{
+.v-divider {
   height: 2rpx;
-  background-color: #dddddd;
+  background-color: #ddd;
   margin-top: 20rpx;
-  box-shadow: 6rpx 6rpx 3rpx 6rpx #dddddd;
+  box-shadow: 6rpx 6rpx 3rpx 6rpx #ddd;
 }
 
-.guess-you{
+.guess-you {
   display: flex;
   margin-top: 20rpx;
 }
@@ -46,99 +46,99 @@
   display: inline-block;
 }
 
-.v-help-find{
+.v-help-find {
   margin-left: 20rpx;
   margin-top: 20rpx;
 }
 
-.txt-help-find-title{
+.txt-help-find-title {
   font-size: 60rpx;
   font-weight: bold;
 }
 
-.scv-help-find{
+.scv-help-find {
   margin-top: 20rpx;
   display: flex;
 }
 
-.v-help-find-item{
+.v-help-find-item {
   width: 300rpx;
   height: 300rpx;
   display: inline-block;
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
   margin-right: 32rpx;
 }
 
-.v-help-find-root{
+.v-help-find-root {
   display: flex;
   flex-flow: column;
 }
 
-.img-help-find-item{
+.img-help-find-item {
   width: 300rpx;
   height: 150rpx;
 }
 
-.txt-help-find-item{
+.txt-help-find-item {
   font-size: 40rpx;
   font-weight: bolder;
   margin-left: 10rpx;
 }
 
-.v-things-to-do{
+.v-things-to-do {
   margin-left: 20rpx;
   margin-top: 20rpx;
   position: relative;
 }
 
-.txt-things-to-do{
+.txt-things-to-do {
   font-size: 60rpx;
   font-weight: bold;
 }
 
-.v-things-to-do-root{
+.v-things-to-do-root {
   margin-top: 20rpx;
   display: flex;
   flex-direction: row;
 }
 
-.v-things-to-do-root-left{
+.v-things-to-do-root-left {
   width: 50%;
   display: flex;
   flex-direction: column;
 }
 
-.v-things-to-do-root-right{
+.v-things-to-do-root-right {
   width: 50%;
   display: flex;
   flex-direction: column;
 }
 
-.v-things-to-do-content-left{
+.v-things-to-do-content-left {
   height: 500rpx;
   display: flex;
   flex-direction: column;
 }
 
-.v-things-to-do-content-right{
+.v-things-to-do-content-right {
   height: 500rpx;
   display: flex;
   flex-direction: column;
 }
 
-.v-img-container-left{
+.v-img-container-left {
   width: 340rpx;
   height: 170rpx;
   position: relative;
 }
 
-.v-img-container-right{
+.v-img-container-right {
   width: 340rpx;
   height: 170rpx;
   position: relative;
 }
 
-.img-save-left{
+.img-save-left {
   width: 32rpx;
   height: 32rpx;
   background-color: white;
@@ -147,7 +147,7 @@
   right: 20rpx;
 }
 
-.img-save-right{
+.img-save-right {
   width: 32rpx;
   height: 32rpx;
   background-color: white;
@@ -156,80 +156,81 @@
   right: 20rpx;
 }
 
-.img-things-to-do-item-left{
+.img-things-to-do-item-left {
   width: 340rpx;
   height: 170rpx;
 }
 
-.img-things-to-do-item-right{
+.img-things-to-do-item-right {
   width: 340rpx;
   height: 170rpx;
 }
 
-.txt-ttd-item-label-left{
+.txt-ttd-item-label-left {
   margin-top: 10rpx;
   font-size: 24rpx;
   font-weight: bold;
 }
 
-.txt-ttd-item-label-right{
+.txt-ttd-item-label-right {
   margin-top: 10rpx;
   font-size: 24rpx;
   font-weight: bold;
 }
 
-.txt-ttd-item-name-left{
+.txt-ttd-item-name-left {
   font-size: 36rpx;
   font-weight: bold;
 }
 
-.txt-ttd-item-name-right{
+.txt-ttd-item-name-right {
   font-size: 36rpx;
   font-weight: bold;
 }
 
-.txt-ttd-item-price-left{
+.txt-ttd-item-price-left {
   margin-top: 10rpx;
   height: 30rpx;
   font-size: 28rpx;
   color: #9c661f;
 }
 
-.txt-ttd-item-price-right{
+.txt-ttd-item-price-right {
   margin-top: 10rpx;
   height: 30rpx;
   font-size: 28rpx;
   color: #9c661f;
 }
 
-.v-evaluation-left{
-  height: 32rpx;
-}
-.v-evaluation-right{
+.v-evaluation-left {
   height: 32rpx;
 }
 
-.txt-ttd-item-evaluation-left{
+.v-evaluation-right {
+  height: 32rpx;
+}
+
+.txt-ttd-item-evaluation-left {
   font-size: 24rpx;
   color: #03a89e;
 }
 
-.txt-ttd-item-evaluation-right{
+.txt-ttd-item-evaluation-right {
   font-size: 24rpx;
   color: #03a89e;
 }
 
-.txt-ttd-item-evaluation-count-left{
+.txt-ttd-item-evaluation-count-left {
   margin-left: 10rpx;
   font-size: 24rpx;
 }
 
-.txt-ttd-item-evaluation-count-right{
+.txt-ttd-item-evaluation-count-right {
   margin-left: 10rpx;
   font-size: 24rpx;
 }
 
-.txt-ttd-show-all{
+.txt-ttd-show-all {
   display: flex;
   width: 96%;
   height: 100rpx;
@@ -240,4 +241,101 @@
   color: #03a89e;
   border: 1px solid #03a89e;
   border-radius: 10rpx;
+}
+
+.adventure-region {
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.txt-adventure-title {
+  margin-left: 20rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.txt-adventure-description {
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
+
+.scv-adventure {
+  margin-top: 20rpx;
+}
+
+.v-adventure-item {
+  height: 600rpx;
+  display: inline-block;
+  margin-right: 20rpx;
+}
+
+.v-adventure-root {
+  display: flex;
+  flex-direction: row;
+  height: 600rpx;
+}
+
+.v-adventure-content {
+  height: 600rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.v-adventure-top {
+  position: relative;
+  width: 680rpx;
+  height: 400rpx;
+}
+
+.img-adventure-item {
+  width: 680rpx;
+  height: 400rpx;
+}
+
+.v-adventure-top-txt-container {
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  width: 680rpx;
+  height: 400rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.txt-adventure-item {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #fff;
+}
+
+.v-adventure-left-padding {
+  width: 20rpx;
+  height: 400rpx;
+}
+
+.v-adventure-right-padding {
+  width: 20rpx;
+  height: 400rpx;
+}
+
+.v-adventure-bottom {
+  width: 680rpx;
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.txt-adventure-btm-title {
+  width: 680rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+  white-space: pre-line;
+}
+
+.txt-adventure-btm-des {
+  width: 680rpx;
+  font-size: 28rpx;
+  white-space: pre-line;
 }

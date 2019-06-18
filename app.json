@@ -1,16 +1,16 @@
 {
-  "pages":[
+  "pages": [
     "pages/discovery/discovery",
     "pages/saved/saved",
     "pages/stories/stories",
     "pages/inbox/inbox",
     "pages/person/person"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Welcome Airbnb",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#dddddd",
@@ -49,5 +49,6 @@
         "text": "ME"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
