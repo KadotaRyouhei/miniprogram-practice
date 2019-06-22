@@ -1,0 +1,29 @@
+<view class='v-me-top'>
+  <view class='v-me-top-left'>
+    <text class='txt-me-name'>Liang</text>
+    <text class='txt-me-edit'>View and edit profile</text>
+  </view>
+  <view class='v-me-top-right'>
+    <image class='img-me-top' src='../../images/avatar.png'></image>
+  </view>
+</view>
+<view class='v-me-top-divider'></view>
+
+<view class='v-scv-container'>
+  <scroll-view class='scv-me' scroll-y='true'>
+    <view wx:for="{{meDatas}}" class='v-me-item'>
+      <view class='v-me-item-root'>
+        <text class='txt-me-item-title'>{{item.title}}</text>
+        <view class='v-me-item-bottom'>
+          <view wx:for="{{item.bottomDatas}}" class='v-me-bottom-item'>
+            <view class='v-me-bottom-item-root'>
+              <image class='img-me-bottom-item' src="{{item.img}}"></image>
+              <text class='txt-me-bottom-item'>{{item.des}}</text>
+            </view>
+          </view>
+        </view>
+        <view class='v-me-item-divier'></view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

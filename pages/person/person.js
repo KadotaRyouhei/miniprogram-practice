@@ -4,7 +4,59 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    meDatas:[
+      {
+        title:"My home reservations",
+        bottomDatas:[
+          {
+            img:"../../images/avatar.png",
+            des:"All reservations"
+          },
+          {
+            img: "../../images/book.png",
+            des: "Confirmed"
+          },
+          {
+            img: "../../images/chat.png",
+            des: "Unpaid"
+          }
+        ],
+      },
+      {
+        title: "Coupon center",
+        bottomDatas: [
+          {
+            img: "../../images/chat2.png",
+            des: "Coupons"
+          },
+          {
+            img: "../../images/garbage.png",
+            des: "Travel credits"
+          },
+          {
+            img: "../../images/heart.png",
+            des: "Invite friends"
+          }
+        ],
+      },
+      {
+        title: "Trip tools",
+        bottomDatas: [
+          {
+            img: "../../images/house.png",
+            des: "Travel for work"
+          },
+          {
+            img: "../../images/settings.png",
+            des: "Trips"
+          },
+          {
+            img: "../../images/star.png",
+            des: "Get help"
+          }
+        ],
+      },
+    ]
   },
 
   /**
