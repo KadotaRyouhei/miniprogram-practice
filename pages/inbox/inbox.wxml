@@ -1,0 +1,25 @@
+<view class='v-inbox-title'>
+  <text class='txt-inbox-title'>Inbox</text>
+  <text class='txt-inbox-subtitle'>You have no unread message</text>
+</view>
+
+<view class='v-scv-container'>
+  <scroll-view class='scv-inbox' scroll-y='true'>
+    <view wx:for="{{inboxDatas}}" class='v-inbox-item'>
+      <view class='v-inbox-item-root'>
+        <view class='v-inbox-item-left'>
+          <image class='img-inbox-item' src='../../images/avatar.png'></image>
+        </view>
+        <view class='v-inbox-detail'>
+          <text class='txt-inbox-name'>{{item.name}}</text>
+          <text class='txt-inbox-mes'>{{item.mes}}</text>
+          <text class='txt-inbox-status'>{{item.status}}</text>
+        </view>
+        <view class='v-inbox-date'>
+          <text class='txt-inbox-date'>{{item.date}}</text>
+        </view>
+      </view>
+      <view class='v-inbox-divider' wx:if="{{index != inboxDatas.length -1}}"></view>
+    </view>
+  </scroll-view>
+</view>

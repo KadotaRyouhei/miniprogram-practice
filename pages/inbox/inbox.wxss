@@ -1,0 +1,88 @@
+.v-inbox-title {
+  margin-left: 40rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.txt-inbox-title {
+  font-size: 60rpx;
+  font-weight: bold;
+}
+
+.txt-inbox-subtitle {
+  font-size: 32rpx;
+}
+
+.v-scv-container {
+  margin-left: 40rpx;
+}
+
+.v-inbox-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.v-inbox-item-root {
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: row;
+  min-height: 200rpx;
+}
+
+.v-inbox-divider {
+  margin-left:60rpx;
+  margin-right: 60rpx;
+  height: 4rpx;
+  background-color: #d2d2d2;
+  flex: auto;
+}
+
+.v-inbox-item-left {
+  width: 150rpx;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.img-inbox-item {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  margin-top: 20rpx;
+  background-color: rgb(230, 236, 230);
+}
+
+.v-inbox-detail {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.txt-inbox-name {
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+.txt-inbox-mes {
+  margin-top: 4rpx;
+  font-size: 32rpx;
+  color: #d2d2d2;
+}
+
+.txt-inbox-status {
+  margin-top: 4rpx;
+  font-size: 32rpx;
+  color: #d2d2d2;
+}
+
+.v-inbox-date {
+  display: flex;
+  flex-direction: column;
+  min-width: 160rpx;
+}
+
+.txt-inbox-date {
+  font-size: 32rpx;
+}

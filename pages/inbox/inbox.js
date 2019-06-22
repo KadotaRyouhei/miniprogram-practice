@@ -4,7 +4,29 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    inboxDatas:[
+      {
+        icon:"xxx",
+        name:"Robert",
+        date:"May 11 >",
+        mes:"Thanks",
+        status:"Completed May 9-11,2019"
+      },
+      {
+        icon: "xxx",
+        name: "Mauro",
+        date: "May 9 >",
+        mes: "Image sent",
+        status: "Completed May 7-9,2019"
+      },
+      {
+        icon: "xxx",
+        name: "Airbnb support",
+        date: "Feb 27 >",
+        mes: "Youre most welcome",
+        status: ""
+      },
+    ]
   },
 
   /**
