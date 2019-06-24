@@ -1,0 +1,136 @@
+.title-search {
+  display: flex;
+  height: 80rpx;
+  margin-top: 8rpx;
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+  border: 1px solid #ddd;
+  border-radius: 10rpx;
+  box-shadow: 6rpx 6rpx 3rpx 6rpx #ddd;
+}
+
+.img-search-icon {
+  width: 32rpx;
+  height: 32rpx;
+  margin-left: 20rpx;
+  margin-top: 24rpx;
+}
+
+.inp-search {
+  height: 60rpx;
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  background-color: #fdfdfd;
+}
+
+.v-story-category-container {
+  margin-top: 20rpx;
+  min-height: 60rpx;
+}
+
+.v-story-item {
+  min-height: 60rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  display: inline-block;
+}
+
+.v-story-item-root {
+  height: 72rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.txt-story-name {
+  font-size: 32rpx;
+  color: #524545;
+}
+
+.v-story-cate-blank {
+  flex: auto;
+}
+
+.v-story-cate-underline {
+  height: 6rpx;
+  background-color: #111010;
+}
+
+.v-story-top-divider {
+  height: 4rpx;
+  background-color: #d2d2d2;
+}
+
+.v-story-content-item-root {
+  min-height: 100rpx;
+  margin-top: 40rpx;
+}
+
+.txt-story-content-item-title {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.v-story-content-item-bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.v-story-content-item-bottom-left-container {
+  width: 50%;
+  min-height: 300rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.v-story-content-item-left {
+  min-height: 300rpx;
+}
+
+.img-story-content-left {
+  width: 340rpx;
+  height: 340rpx;
+}
+
+.v-story-content-left-txt-container {
+  margin-right: 30rpx;
+}
+
+.txt-story-content-left-loc {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.txt-story-content-left-des {
+  margin-left: 10rpx;
+  font-size: 28rpx;
+}
+
+.v-story-content-item-bottom-right-container {
+  width: 50%;
+  min-height: 300rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.v-story-content-item-right {
+  min-height: 300rpx;
+}
+
+.img-story-content-right {
+  width: 340rpx;
+  height: 340rpx;
+}
+
+.v-story-content-right-txt-container {
+  margin-right: 30rpx;
+}
+
+.txt-story-content-right-loc {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.txt-story-content-right-des {
+  margin-left: 10rpx;
+  font-size: 28rpx;
+}

@@ -1,0 +1,51 @@
+<view class="title-search">
+  <image class="img-search-icon" src="../../images/search.png"></image>
+  <input class="inp-search" placeholder='搜索上海美食故事'></input>
+</view>
+
+<view class='v-story-category-container'>
+  <scroll-view class='scv-story-category' scroll-x="true" style="white-space: nowrap; display:flex">
+    <view wx:for="{{categoryDatas}}" class='v-story-item'>
+      <view class='v-story-item-root' bindtap="onCateSelect" data-index="{{index}}">
+        <text class='txt-story-name'>{{item.cateName}}</text>
+        <view class='v-story-cate-blank'></view>
+        <view class='v-story-cate-underline' wx:if="{{currentCate == index}}"></view>
+      </view>
+    </view>
+  </scroll-view>
+</view>
+
+<view class='v-story-top-divider'>
+</view>
+
+<view class='v-story-content-container'>
+  <scroll-view class='scv-story-content' scroll-y="true">
+    <view wx:for="{{storyDatas}}" class='v-story-content-item'>
+      <view class='v-story-content-item-root'>
+        <view class='v-story-content-item-title'>
+          <text class='txt-story-content-item-title'>{{item.storyName}}</text>
+        </view>
+        <view class='v-story-content-item-bottom'>
+          <view class='v-story-content-item-bottom-left-container'>
+            <view class='v-story-content-item-left' wx:for="{{item.storyContent}}" wx:if="{{index%2==0}}">
+              <image class='img-story-content-left' src='../../images/thingsToDo.png'></image>
+              <view class='v-story-content-left-txt-container'>
+                <text class='txt-story-content-left-loc'>{{item.loc}}</text>
+                <text class='txt-story-content-left-des'>{{item.des}}</text>
+              </view>
+            </view>
+          </view>
+          <view class='v-story-content-item-bottom-right-container'>
+            <view class='v-story-content-item-right' wx:for="{{item.storyContent}}" wx:if="{{index%2==1}}">
+              <image class='img-story-content-right' src='../../images/thingsToDo.png'></image>
+              <view class='v-story-content-right-txt-container'>
+                <text class='txt-story-content-right-loc'>{{item.loc}}</text>
+                <text class='txt-story-content-right-des'>{{item.des}}</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>
