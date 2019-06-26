@@ -58,6 +58,16 @@ Page({
       },
     ]
   },
+  toMecenter: function () {
+    wx.navigateTo({
+      url: '/pages/mecenter/mecenter'
+    })
+  },
+  toExplore:function(){
+    wx.switchTab({
+      url: '/pages/discovery/discovery'
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载

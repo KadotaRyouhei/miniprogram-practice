@@ -1,0 +1,3 @@
+<view class="v-mecenter">
+  <text bindtap='toStory'>个人中心</text>
+</view>

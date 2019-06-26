@@ -4,7 +4,8 @@
     "pages/saved/saved",
     "pages/stories/stories",
     "pages/inbox/inbox",
-    "pages/person/person"
+    "pages/person/person",
+    "pages/mecenter/mecenter"
   ],
   "window": {
     "backgroundTextStyle": "light",

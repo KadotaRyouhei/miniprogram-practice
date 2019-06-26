@@ -4,7 +4,7 @@
     <text class='txt-me-edit'>View and edit profile</text>
   </view>
   <view class='v-me-top-right'>
-    <image class='img-me-top' src='../../images/avatar.png'></image>
+    <image class='img-me-top' src='../../images/avatar.png' bindtap="toMecenter"></image>
   </view>
 </view>
 <view class='v-me-top-divider'></view>
