@@ -20,7 +20,7 @@
 
 <view class='v-story-content-container'>
   <scroll-view class='scv-story-content' scroll-y="true">
-    <view wx:for="{{storyDatas}}" class='v-story-content-item'>
+    <view wx:for="{{(currentCate % 2 == 0)? storyDatas : storyDatasOther}}" class='v-story-content-item'>
       <view class='v-story-content-item-root'>
         <view class='v-story-content-item-title'>
           <text class='txt-story-content-item-title'>{{item.storyName}}</text>
@@ -28,7 +28,7 @@
         <view class='v-story-content-item-bottom'>
           <view class='v-story-content-item-bottom-left-container'>
             <view class='v-story-content-item-left' wx:for="{{item.storyContent}}" wx:if="{{index%2==0}}">
-              <image class='img-story-content-left' src='../../images/thingsToDo.png'></image>
+              <image class='img-story-content-left' src="{{item.img}}"></image>
               <view class='v-story-content-left-txt-container'>
                 <text class='txt-story-content-left-loc'>{{item.loc}}</text>
                 <text class='txt-story-content-left-des'>{{item.des}}</text>
@@ -37,7 +37,7 @@
           </view>
           <view class='v-story-content-item-bottom-right-container'>
             <view class='v-story-content-item-right' wx:for="{{item.storyContent}}" wx:if="{{index%2==1}}">
-              <image class='img-story-content-right' src='../../images/thingsToDo.png'></image>
+              <image class='img-story-content-right' src="{{item.img}}"></image>
               <view class='v-story-content-right-txt-container'>
                 <text class='txt-story-content-right-loc'>{{item.loc}}</text>
                 <text class='txt-story-content-right-des'>{{item.des}}</text>
